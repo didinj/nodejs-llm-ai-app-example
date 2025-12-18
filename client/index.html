@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>AI Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="chat-container">
+      <h1>AI Assistant</h1>
+
+      <div id="messages" class="messages"></div>
+
+      <div id="loading" class="loading hidden">AI is thinking...</div>
+
+      <form id="chat-form">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="Ask something..."
+          autocomplete="off"
+          required
+        />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
